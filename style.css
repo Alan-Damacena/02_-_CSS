@@ -1,0 +1,26 @@
+/* Seletor universal */
+*{
+    padding: 20px;
+}
+
+/* Exemplo de seletores */
+body{
+    background: rgb(197, 192, 192);
+}
+
+p{
+    color: red;
+}
+
+#teste{
+    color: darkblue;
+}
+
+/* Exemplo de classes */
+.center{
+    text-align: center;
+}
+
+.negrito{
+    font-weight: bold;
+}
