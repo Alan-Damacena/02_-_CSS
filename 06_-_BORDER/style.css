@@ -1,0 +1,52 @@
+*{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    color: #13a3a8;
+    border-top: 10px solid brown;
+    border-bottom: 10px solid darkgreen;
+    border-left: 10px solid darkblue;
+    border-right: 10px solid red;
+}
+
+.border_radius{
+    border: 5px solid black;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.teste_00{
+    border: 5px solid black;
+}
+
+.teste_01{
+    border: 5px dotted;
+}
+
+.teste_02{
+    border: 5px dashed;
+}
+
+.teste_03{
+    border: 5px double;
+}
+
+.teste_04{
+    border: 5px groove;
+}
+
+.teste_05{
+    border: 5px ridge;
+}
+
+.teste_06{
+    border: 5px inset;
+}
+
+.teste_07{
+    border: 5px outset;
+}
