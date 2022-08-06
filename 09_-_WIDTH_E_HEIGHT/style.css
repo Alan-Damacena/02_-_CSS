@@ -1,0 +1,17 @@
+.largura{
+    background: cyan;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.altura{
+    background: cyan;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    padding: 150px;
+}
