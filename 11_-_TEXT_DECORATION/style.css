@@ -1,0 +1,14 @@
+.underline{
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.overline{
+    font-weight: bold;
+    text-decoration:overline;
+}
+
+.line-trougth{
+    font-weight: bold;
+    text-decoration: line-through;
+}
