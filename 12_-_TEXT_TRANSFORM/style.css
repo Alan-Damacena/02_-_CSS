@@ -1,0 +1,11 @@
+.teste_01{
+    text-transform: capitalize;
+}
+
+.teste_02{
+    text-transform:lowercase;
+}
+
+.teste_03{
+    text-transform:uppercase;
+}
