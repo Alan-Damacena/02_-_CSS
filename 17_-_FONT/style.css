@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+.teste_01{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.teste_02{
+    font-style: italic;
+}
+
+.teste_03{
+    font-size: 20px;
+}
+
+.teste_04{
+    font-weight: bold;
+}
+
+.teste_05{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 40px;
+}
