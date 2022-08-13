@@ -1,11 +1,37 @@
-.imagem_01{
-    width: 130px;
-    position: relative;
-    top:30px;
-    right: 15px;
+*{
+    text-align: center;
 }
 
-.titulo{
-    text-align: center;
-    font-size: 90px;
+.teste_01{
+    position: static;
+}
+
+.teste_02{
+    position: relative;
+    left: 250px;
+    right: 100px;
+    top: -40px;
+    bottom: 70px;
+    z-index: -1;
+}
+
+.teste_03{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.container{
+    position: absolute;
+}
+
+.teste_04{
+   position: absolute;
+   top: 50px;
+   left: 100px;
+}
+
+.teste_05{
+    position: sticky;
+    top: 0;
 }
