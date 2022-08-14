@@ -1,0 +1,23 @@
+.container_01{
+    background-color: aquamarine;
+    height: 60px;
+    overflow: visible;
+}
+
+.container_02{
+    background-color: aquamarine;
+    height: 60px;
+    overflow: hidden;
+}
+
+.container_03{
+    background-color: aquamarine;
+    height: 60px;
+    overflow: scroll;
+}
+
+.container_04{
+    background-color: aquamarine;
+    height: 60px;
+    overflow: auto;
+}
