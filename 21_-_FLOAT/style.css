@@ -1,0 +1,15 @@
+.container{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.teste_01{
+    float: left;
+    margin-right: 20px;
+}
+
+.teste_02{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
