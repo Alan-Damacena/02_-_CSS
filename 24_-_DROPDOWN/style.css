@@ -1,9 +1,10 @@
 ul{
-    background: rgb(87, 241, 87);
+    background: rgb(20, 233, 102);
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 li{
@@ -12,14 +13,15 @@ li{
 
 li a, .drop_btn{
     display: inline-block;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
 }
 
 li a:hover, .dropdown:hover .drop_btn{
-    background: red;
+    background: rgb(10, 6, 6);
+    color: white;
 }
 
 li.dropdown{
