@@ -1,0 +1,47 @@
+#gradiente{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(blue,red)
+}
+
+#gradiente1{
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(blue, yellow, red, black, green)
+}
+
+#gradiente2{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(pink, green, orange)
+}
+
+#gradiente3{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, red, orange,yellow,green,blue,indigo, violet)
+}
+
+#gradiente4{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to top right, purple, violet)
+}
+
+#gradiente5{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom left,blue,red)
+}
+
+#gradiente6{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(50deg, black, rgb(56, 47, 47))
+}
+
+#gradiente7{
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(blue 10%, yellow, red, black, green);
+}
