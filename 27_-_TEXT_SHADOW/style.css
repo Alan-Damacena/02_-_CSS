@@ -1,0 +1,21 @@
+.teste_01{
+    text-shadow: 2px 2px red;
+}
+
+.teste_02{
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.teste_03{
+    text-shadow: 12px 10px 3px black;
+}
+
+.teste_04{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.teste_05{
+    color: black;
+    text-shadow: 0 0 3px red, 2px 2px 5px yellow;
+}
