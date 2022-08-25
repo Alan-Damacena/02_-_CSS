@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 10px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 2px solid black;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .around{
+            align-content: space-around;
+        }
+
+        .between{
+            align-content: space-between;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <p style="text-align: center; font-weight: bold;">STRETCH</p>
+    <div class="container stretch">
+        <div class="item">Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel </div>
+        <div class="item">Alan Felipe Miguel Damacena Alan</div>
+        <div class="item">Alan Felipe Miguel Damacena Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+    </div>
+
+    <p style="text-align: center; font-weight: bold;">CENTER</p>
+    <div class="container center">
+        <div class="item">Alan Fel Miguel Damacena</div>
+        <div class="item">Alan Felip Miguel </div>
+        <div class="item">Alan Fe Miguel Damacena Alan</div>
+        <div class="item">Alanpe Miguel Damacena Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Feguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+    </div>
+
+    <p style="text-align: center; font-weight: bold;">FLEX START</p>
+    <div class="container flex-start">
+        <div class="item">Alan Fel Miguel Damacena</div>
+        <div class="item">Alan Felip Miguel </div>
+        <div class="item">Alan Fe Miguel Damacena Alan</div>
+        <div class="item">Alanpe Miguel Damacena Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Feguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+    </div>
+
+    <p style="text-align: center; font-weight: bold;">FLEX END</p>
+    <div class="container flex-end">
+        <div class="item">Alan Fel Miguel Damacena</div>
+        <div class="item">Alan Felip Miguel </div>
+        <div class="item">Alan Fe Miguel Damacena Alan</div>
+        <div class="item">Alanpe Miguel Damacena Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Feguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+    </div>
+
+    <p style="text-align: center; font-weight: bold;">SPACE-AROUND</p>
+    <div class="container space-around">
+        <div class="item">Alan Fel Miguel Damacena</div>
+        <div class="item">Alan Felip Miguel </div>
+        <div class="item">Alan Fe Miguel Damacena Alan</div>
+        <div class="item">Alanpe Miguel Damacena Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Feguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+    </div>
+
+    <p style="text-align: center; font-weight: bold;">SPACE-BETWEEN</p>
+    <div class="container space-between">
+        <div class="item">Alan Fel Miguel Damacena</div>
+        <div class="item">Alan Felip Miguel </div>
+        <div class="item">Alan Fe Miguel Damacena Alan</div>
+        <div class="item">Alanpe Miguel Damacena Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Feguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+        <div class="item">Alan Felipe Miguel Damacena</div>
+    </div>
+
+
+    
+</body>
+</html>

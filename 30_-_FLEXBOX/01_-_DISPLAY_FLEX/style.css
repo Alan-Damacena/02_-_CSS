@@ -1,12 +1,12 @@
 .flex-pai{
     background: blue;
-    display: inline-block;
+    display: flex; /* um item fica do lado do outro */
 }
 
 .flex-pai div{
     background: white;
     border: 1px solid black;
-    margin: 20px;
+    margin: 5px;
     padding: 30px;
     text-align: center;
 }
