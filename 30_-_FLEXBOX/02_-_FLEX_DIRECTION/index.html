@@ -4,61 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CURSO - DIGITAL INNOVATION ONE</title>
-    <style>
-      
-        .flex-container{
-            margin:0;
-            padding:0;
-            display: flex;
-            list-style: none;
-        }
-
-        .flex-item{
-            background-color: blue;
-            height: 50px;
-            width: 50px;
-            line-height: 50px;
-            font-size: 20px;
-            color: white;
-            text-align: center;
-            margin: 5px;
-        }
-
-        .row{
-            flex-direction: row;
-        }
-
-        .row-reverse{
-            flex-direction: row-reverse;
-        }
-
-        .row-reverse li{
-            background-color: red;
-        }
-
-        .column{
-            float: left;
-            flex-direction: column;
-        }
-
-        .column li{
-            background: orange;
-        }
-
-        .column-reverse{
-            float: right;
-            flex-direction: column-reverse;
-        }
-
-        .column-reverse li{
-            background: purple;
-        }
-
-    </style>
+    <title>CSS: Flex-direction</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
+    <h1 style="text-align: center;">FLEX-DIRECTION</h1>
+
+    <br>
+
+    <h2>ROW (LINHA)</h2>
     <ul class="flex-container row">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
@@ -67,6 +22,7 @@
         <li class="flex-item">5</li>
     </ul>
 
+    <h2 style="text-align: right;">ROW-REVERSE (LINHA REVERSA)</h2>
     <ul class="flex-container row-reverse">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
@@ -75,6 +31,7 @@
         <li class="flex-item">5</li>
     </ul>
 
+    <h2>COLUMN (COLUNA)</h2>
     <ul class="flex-container column">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
@@ -83,6 +40,7 @@
         <li class="flex-item">5</li>
     </ul>
 
+    <h2 style="text-align: right;">COLUMN-REVERSE (COLUNA REVERSA)</h2>
     <ul class="flex-container column-reverse">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
