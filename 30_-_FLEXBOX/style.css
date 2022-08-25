@@ -1,0 +1,12 @@
+.flex-pai{
+    background: blue;
+    display: inline-block;
+}
+
+.flex-pai div{
+    background: white;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
