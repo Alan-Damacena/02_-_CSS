@@ -4,69 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos - justify-content</title>
-
-    <style>
-        .container{
-            max-width: auto;
-            border: 1px solid black;
-            margin: 0;
-            display: flex;
-            margin-bottom: 10px;
-        }
-
-        .item{
-            background-color: blueviolet;
-            margin: 5px;
-            text-align: center;
-            color: white;
-        }
-
-        .flex-start{
-            justify-content: flex-start;
-        }
-
-        .flex-end{
-            justify-content: flex-end;
-        }
-
-        .center{
-            justify-content: center;
-        }
-
-        .space-between{
-            justify-content: space-between;
-        }
-
-        .space-around{
-            justify-content: space-around;
-        }
-
-        .column{
-            flex-direction: column;
-            min-height: 200px;
-        }
-    </style>
-
+    <title>CSS: Justify-content</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <h1 style="text-align: center">ROW</h1>
-    <p style="text-align: center;">FLEX START</p>
+    <h1>CSS: JUSTIFY-CONTENT</h1>
+
+    <h2>ROW</h2>
+
+    <br>
+
+    <h3>FLEX START</h3>
     <section class="container flex-start">
         <div class="item">1</div>
         <div class="item">Item 2</div>
         <div class="item">Outro Item</div>
     </section>
 
-    <p style="text-align: center">FLEX END</p>
+    <h3>FLEX END</h3>
     <section class="container flex-end">
         <div class="item">1</div>
         <div class="item">Item 2</div>
         <div class="item">Outro Item</div>
     </section>
 
-    <p style="text-align: center">CENTER</p>
+    <h3>CENTER</h3>
     <section class="container center">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -74,7 +37,7 @@
         <div class="item">Outro Item</div>
     </section>
 
-    <p style="text-align: center">SPACE BETWEEN</p>
+    <h3>SPACE BETWEEN</h3>
     <section class="container space-between">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -82,7 +45,7 @@
         <div class="item">Outro Item</div>
     </section>
 
-    <p style="text-align: center">SPACE AROUND</p>
+    <h3>SPACE AROUND</h3>
     <section class="container space-around">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -90,9 +53,13 @@
         <div class="item">Outro Item</div>
     </section>
 
+    <br>
 
-    <h1 style="text-align: center">COLUMN</h1>
-    <p style="text-align: center">FLEX-START (COLUMN)</p>
+    <h2>COLUMN</h2>
+
+    <br>
+    
+    <h3>FLEX-START (COLUMN)</h3>
     <section class="container flex-start column">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -100,7 +67,7 @@
         <div class="item">Outro Item</div>
     </section>
 
-    <p style="text-align: center">FLEX-END (COLUMN)</p>
+    <h3>FLEX-END (COLUMN)</h3>
     <section class="container flex-end column">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -108,7 +75,7 @@
         <div class="item">Outro Item</div>
     </section>
 
-    <p style="text-align: center">CENTER</p>
+    <h3>CENTER</h3>
     <section class="container center column">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -116,7 +83,7 @@
         <div class="item">Outro Item</div>
     </section>
 
-    <p style="text-align: center">SPACE-BETWEEN</p>
+    <h3>SPACE-BETWEEN</h3>
     <section class="container space-between column">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -124,7 +91,7 @@
         <div class="item">Outro Item</div>
     </section>
 
-    <p style="text-align: center">SPACE-AROUD</p>
+    <h3>SPACE-AROUD</h3>
     <section class="container space-around column">
         <div class="item">1</div>
         <div class="item">Item 2</div>
