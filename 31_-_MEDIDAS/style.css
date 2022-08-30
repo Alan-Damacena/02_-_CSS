@@ -1,0 +1,69 @@
+*{
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.centimetros{
+    width: 10cm;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.milimetros{
+    width: 10mm;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.polegadas{
+    width: 10in;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.pontos{
+    width: 10pt;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.picas{
+    width: 10pc;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.pixels{
+    width: 10px;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.em{
+    width: 10em;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.rem{
+    width: 10rem;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.Porcento{
+    width: 10%;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.vw{
+    width: 10vw;
+    background: yellow;
+    border: 2px solid black;
+}
+
+
