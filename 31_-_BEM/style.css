@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    background-color:antiquewhite;
+    color:black;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.botao{
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 200px;
+    padding: 10px;   
+}
+
+/* SINTAXE: BLOCO__ELEMENTO */
+.container__nome{
+    background-color: blue;
+}
+
+/* SINTAXE: BLOCO__ELEMENTO--MODIFICADOR */
+.container__nome--cor{
+    background-color: yellow;
+}
+
+/* SINTAXE: BLOCO__ELEMENTO--MODIFICADOR */
+/* Nesse caso o bloco container, dentro do elemento botão, recebe o modificador HOVER */
+.botao:hover {
+    background-color: blue;
+    color:white;
+}
