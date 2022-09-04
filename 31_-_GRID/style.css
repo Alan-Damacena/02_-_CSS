@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-rows: 120px 120px;
+    grid-template-columns: 150px 150px 150px;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+img{
+    border: 1px solid black;
+}
