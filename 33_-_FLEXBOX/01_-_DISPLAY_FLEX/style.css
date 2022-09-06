@@ -1,12 +1,14 @@
 .flex-pai{
     background: blue;
+    max-width: 400px;
+    max-height: 116px;
     display: flex; /* um item fica do lado do outro */
+    margin: auto;
 }
 
 .flex-pai div{
-    background: white;
-    border: 1px solid black;
+    background: gray;
+    border: 2px solid gray;
     margin: 5px;
-    padding: 30px;
-    text-align: center;
+    padding: 1px;
 }
