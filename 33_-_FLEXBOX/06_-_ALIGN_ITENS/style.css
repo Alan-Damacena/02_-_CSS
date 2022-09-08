@@ -1,29 +1,31 @@
-h1{
-    text-align: center;
-}
-
-h2{
-    text-align: center;
-}
-
-h3{
-    text-align: center;
-}
-
 *{
-    padding: 10px;
-    margin: auto;
+    padding: 5px;
+    margin: 0 auto;
+    background: rgb(247, 237, 147);
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+img{
+    width: 100px;
 }
 
 .container{
-    max-width: 350px;
+    max-width: 400px;
+    height: 200px;
     border: 1px solid black;
     display: flex;
 }
 
+.column{
+    height: 600px;
+}
+
 .item{
-    background-color: blueviolet;
-    margin: 5px;
+    background-color: orangered;
+    margin: 4px;
     color: white;
     text-align: center;
     flex: 1;
@@ -60,5 +62,5 @@ h3{
 
 .central .item{
     flex: 0;
-    padding: 20px;
+    padding: 10px;
 }
