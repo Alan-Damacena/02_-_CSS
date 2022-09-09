@@ -4,20 +4,23 @@
     padding: 15px;
 }
 
+img{
+    width: 150px;
+    border: 2px solid black;
+}
+
 .flex-container{
     display: flex;
     border: 2px solid black;
-    max-width: 300px;
+    max-width: 1200px;
     margin-bottom: 20px;
     justify-content: center;
 }
 
 .item{
-    background-color: orangered;
     margin: 5px;
     padding: 10px;
     text-align: center;
-    color: white;
 }
 
 .fg-0{
