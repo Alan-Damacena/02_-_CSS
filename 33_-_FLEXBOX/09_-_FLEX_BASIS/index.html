@@ -9,30 +9,28 @@
 </head>
 <body>
 
-    <h1>CSS: Flex-basis</h1>
+    <h1 style="padding: 20px;">CSS: FLEX-BASIS</h1>
+
+    <p style="font-size: 20px; padding: 20px;">É a propriedade que estabelece o tamanho inicial do item antes das distribuições de espaço dentro dele, usando como base o conteúdo interno disposto.</p>
 
     <br>
 
-    <p>auto</p>
+    <h3 style="padding: 20px;">AUTO (COM A PRIMEIRA IMAGEM EM FLEX-GROW:1  E A ÚLTIMA EM 2)</h3>
     <div class="flex-container">
-        <div class="itens bauto fg-1">A</div>
-        <div class="itens bauto fg-1">BBB</div>
-        <div class="itens bauto fg-1">C</div>
-        <div class="itens bauto fg-2">DEF</div>
+        <div class="itens bauto fg-1"><img src="./assets/imagens/hypera.jpg" alt=""></div>
+        <div class="itens bauto"><img src="./assets/imagens/hypera.jpg" alt=""></div>
+        <div class="itens bauto"><img src="./assets/imagens/hypera.jpg" alt=""></div>
+        <div class="itens bauto fg-2"><img src="./assets/imagens/hypera.jpg" alt=""></div>
     </div>
 
-    <p>0 (zero)</p>
-    <div class="flex-container">
-        <div class="itens b-0 fg-1">AaaaaaA</div>
-        <div class="itens b-0 fg-1">BBB</div>
-        <div class="itens b-0 fg-1">C</div>
-        <div class="itens b-0 fg-1">DEF</div>
-    </div>
+    <br><br>
 
-    <p>basis + width</p>
+    <h3 style="padding: 20px;">FLEX-BASIS EM 0 E COM OS ITENS EM FLEX-GROW: 1</h3>
     <div class="flex-container">
-        <div class="itens w100 
-        fg-2">DEF</div>
+        <div class="itens b-0 fg-1"><img src="./assets/imagens/hypera.jpg" alt=""></div>
+        <div class="itens b-0 fg-1"><img src="./assets/imagens/hypera.jpg" alt=""></div>
+        <div class="itens b-0 fg-1"><img src="./assets/imagens/hypera.jpg" alt=""></div>
+        <div class="itens b-0 fg-1"><img src="./assets/imagens/hypera.jpg" alt=""></div>
     </div>
 
 </body>
