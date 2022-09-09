@@ -1,15 +1,25 @@
 body{
+    background: rgb(100,219,61);
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+img{
+    width: 400px;
+    border-radius: 30px;
+    margin: 70px;
 }
 
 a{
     text-decoration: none;
     color: black;
-    border: 1px solid black;
-    padding: 20px;
+    background: white;
+    border: 2px solid rgb(90, 85, 85);
+    border-radius: 10px;
+    padding: 15px;
     margin: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
