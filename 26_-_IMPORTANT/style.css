@@ -1,11 +1,15 @@
+body{
+    text-align: center;
+}
+
 #Meu_Id{
-    color: red;
+    background: red;
 }
 
 .Minha_Classe{
-    color: blue;
+    background: blue;
 }
 
-h1{
-    color: green !important;
+img{
+    background: yellow;
 }
