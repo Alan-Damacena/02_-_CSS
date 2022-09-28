@@ -19,7 +19,7 @@ body{
 }
 
 .row-wrap{
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 
 .row_wrap-reverse{
